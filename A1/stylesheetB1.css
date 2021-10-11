@@ -1,0 +1,30 @@
+/*task 1*/
+p {
+    font-family: "Arial Black", serif;
+    font-size: 1vw;
+}
+h1 {
+    font-family: Calibri, sans-serif;
+    font-size: 3vw;
+}
+h2{
+    font-family: "Calibri Light", ui-serif;
+    font-size: 2vw;
+}
+
+/*task 2*/
+table {
+    border: 3px solid saddlebrown;
+    border-collapse: collapse;
+}
+th,td,tr {
+    border: 1px dotted sandybrown;
+}
+/*task3*/
+a {
+    text-decoration: none;
+}
+/*task4*/
+ul {
+    list-style-type: lower-roman;
+}
