@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Potato.Com - Lab2A</title>
+    <link href="stylesheetB2.css" rel="stylesheet" />
+</head>
+<body>
+<!--Task 2 -->
+<form id = "container">
+    <div class = "field">
+        <label class="label">Username</label>
+        <input class = "input" type = "text" placeholder="Username" required/>
+    </div>
+    <div class = "field">
+        <label class="label">Password</label>
+        <input class = "input" type = "password" placeholder="Password" required/>
+    </div>
+
+    <div class = "field">
+        <label class="label">Potato Type: </label>
+        <input type = "radio" name = "potatoType"  value="Potato"required/>
+        <label class="label" >Potato </label>
+        <input type = "radio" name = "potatoType"  value="Sweet Potato"required/>
+        <label class="label" >Sweet Potato </label>
+        <input type = "radio" name = "potatoType"  value="Robatato"required/>
+        <label class="label" >Robatato </label>
+    </div>
+
+    <div class="field">
+        <label class = "label"> Choose your starting weapon</label>
+        <div class="control">
+            <div class = "select">
+                <select>
+                    <option>Sword</option>
+                    <option>Staff</option>
+                    <option>Crossbow</option>
+                    <option>Dagger</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="field">
+        <label class="label">What makes you worthy of joining the faith of Potatas </label>
+        <textarea placeholder="Insert your reasoning here"></textarea>
+        </div>
+
+    <div class = "field">
+        <div class ="control">
+            <label class = "checkbox">
+                <input type="checkbox" required/> Accept the Faith of Potatas and be cursed with baldness
+            </label>
+        </div>
+    </div>
+    <div class = "buttonWrapper">
+        <button type ="submit"> Submit</button>
+        <button type ="reset"> Reset</button>
+    </div>
+
+</form>
+</body>
+</html>
