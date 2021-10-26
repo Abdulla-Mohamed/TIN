@@ -1,0 +1,97 @@
+
+.container{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+header{
+    display: inline-flex;
+    justify-content: center;
+    padding: 15px;
+    font-family:"Comic Sans MS", cursive;
+}
+header img{
+    border-radius: 15px;
+    transform: rotate(10deg);
+    box-shadow: 5px 5px #160021;
+}
+
+img.rouge {
+    width: 50%;
+    height: 50%;
+}
+
+
+
+.bodyContainer{
+    display: grid;
+    grid-gap: 5px;
+}
+
+.articleContainer{
+    grid-row-start: 2;
+    grid-column-end: span 1;
+    border: 5px cornflowerblue dotted;
+    font-family: "Comic Sans MS", fantasy;
+}
+
+.articleContainer p{
+    color: saddlebrown;
+}
+
+.galleryContainer{
+    grid-row-start: 3;
+    grid-column-end: span 1;
+    border: 5px cornflowerblue dotted;
+}
+
+.galleryContainer figcaption{
+    font-family: "Comic Sans MS", fantasy;
+
+}
+
+.galleryContainer img{
+    height: 40%;
+    width: 40%;
+}
+
+
+blockquote{
+    margin: 2px;
+}
+
+aside{
+    margin: 5px;
+    font-size: 2vh;
+    font-family: 'sans-serif', Serif;
+    background-color: #7c5564;
+    max-width: 50%;
+
+}
+
+footer{
+    display: inline-flex;
+    justify-content: right;
+    background-color: #884802;
+    font-family: "Berlin Sans FB Demi", cursive;
+    font-size: 2vh ;
+}
+
+@media only screen and (min-width: 800px) {
+    .articleContainer p{
+        grid-column-start: 2;
+        color: #623305;
+    }
+    .bodyContainer{
+        grid-template-columns: 1fr 4fr;
+    }
+    .columnContainer{
+        column-count: auto;
+        column-gap: 40px;
+        column-width: 300px;
+    }
+    .galleryContainer{
+        grid-column-end: span 1;
+        grid-row-start: 2;
+    }
+}
