@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+<script src="6A.js"></script>
+<form name="form" action="" method="get">
+    <label for="input"></label><input type="text" name="input" id="input" placeholder="Enter Number">
+    <label for="type"></label>
+    <select id="type">
+        <option value="F">Fahrenheit</option>
+        <option value="C">Celsius</option>
+    </select>
+    <label>
+        <input name="result" type="text" value="" readonly>
+    </label>
+    <input type="button" name="button" value="Convert" onClick="convert(this.form)">
+</form>
+</body>
+</html>

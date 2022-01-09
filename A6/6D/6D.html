@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table row</title>
+</head>
+<body>
+<table id="table">
+    <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Specialization</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>John</td>
+        <td>Database</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Doe</td>
+        <td>Software Engineer</td>
+    </tr>
+</table>
+<form name="form" action="" method="get">
+    <label for="id"></label><input type="text" name="id" id="id" placeholder="No.">
+    <label for="name"></label><input type="text" name="name" id="name" placeholder="Name">
+    <label for="spec"></label><input type="text" name="spec" id="spec" placeholder="Specialization">
+    <input type="button" name="button" value="Add" onClick="addRow(this.form)">
+</form>
+<script src="6D.js"></script>
+</body>
+</html>
