@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2566031c-e4c3-4efe-9abc-639793e9cd06" name="Changes" comment="Assignment 6 TIN">
-      <change afterPath="$PROJECT_DIR$/A6/6A/6A.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A6/6A/6A.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A6/6B/6B.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A6/6B/6B.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A6/6C/6C.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A6/6C/6c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A6/6D/6D.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A6/6D/6D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A7/7A.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A7/7B.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +36,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/A6" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.6D.html">
-    <configuration name="6A.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TIN/A6/6A/6A.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="6B.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TIN/A6/6B/6B.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.7B.js">
     <configuration name="6C.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TIN/A6/6C/6C.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -61,13 +50,26 @@
     <configuration name="6c.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/A6/6C/6c.js" working-dir="$PROJECT_DIR$/A6/6C">
       <method v="2" />
     </configuration>
+    <configuration name="7A.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/A7/7A.js" working-dir="$PROJECT_DIR$/A7">
+      <method v="2" />
+    </configuration>
+    <configuration name="7B.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" node-parameters="$FileDir$" path-to-js-file="7B.js" working-dir="$PROJECT_DIR$/A7">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.6C.html" />
+      <item itemvalue="JavaScript Debug.6D.html" />
+      <item itemvalue="Node.js.6c.js" />
+      <item itemvalue="Node.js.7A.js" />
+      <item itemvalue="Node.js.7B.js" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.7B.js" />
+        <item itemvalue="Node.js.7A.js" />
         <item itemvalue="JavaScript Debug.6D.html" />
         <item itemvalue="Node.js.6c.js" />
         <item itemvalue="JavaScript Debug.6C.html" />
-        <item itemvalue="JavaScript Debug.6A.html" />
-        <item itemvalue="JavaScript Debug.6B.html" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +87,8 @@
       <workItem from="1641768102168" duration="90000" />
       <workItem from="1641768209644" duration="160000" />
       <workItem from="1641768388048" duration="106000" />
+      <workItem from="1641768878268" duration="3376000" />
+      <workItem from="1641816231300" duration="3784000" />
     </task>
     <servers />
   </component>
