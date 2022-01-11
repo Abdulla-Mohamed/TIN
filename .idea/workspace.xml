@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2566031c-e4c3-4efe-9abc-639793e9cd06" name="Changes" comment="Assignment 6 TIN">
-      <change afterPath="$PROJECT_DIR$/A7/7A.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A7/7B.js" afterDir="false" />
+    <list default="true" id="2566031c-e4c3-4efe-9abc-639793e9cd06" name="Changes" comment="Assignment 7 TIN">
+      <change afterPath="$PROJECT_DIR$/A8/expresss8A.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A8/form8B.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A8/views/formdata.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A8/views/jsondata.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,40 +38,41 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/A6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.7B.js">
+  <component name="RunManager" selected="Node.js.expresss8A.js">
     <configuration name="6C.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TIN/A6/6C/6C.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="6D.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TIN/A6/6D/6D.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="6c.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/A6/6C/6c.js" working-dir="$PROJECT_DIR$/A6/6C">
       <method v="2" />
     </configuration>
     <configuration name="7A.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/A7/7A.js" working-dir="$PROJECT_DIR$/A7">
       <method v="2" />
     </configuration>
-    <configuration name="7B.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" node-parameters="$FileDir$" path-to-js-file="7B.js" working-dir="$PROJECT_DIR$/A7">
+    <configuration name="7B.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="7B.js" working-dir="$PROJECT_DIR$/A7">
+      <method v="2" />
+    </configuration>
+    <configuration name="express8A.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="express8A.js" working-dir="$PROJECT_DIR$/A8">
+      <method v="2" />
+    </configuration>
+    <configuration name="expresss8A.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/A8/expresss8A.js" working-dir="$PROJECT_DIR$/A8">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.6C.html" />
-      <item itemvalue="JavaScript Debug.6D.html" />
-      <item itemvalue="Node.js.6c.js" />
       <item itemvalue="Node.js.7A.js" />
       <item itemvalue="Node.js.7B.js" />
+      <item itemvalue="Node.js.express8A.js" />
+      <item itemvalue="Node.js.expresss8A.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.expresss8A.js" />
+        <item itemvalue="JavaScript Debug.6C.html" />
+        <item itemvalue="Node.js.express8A.js" />
         <item itemvalue="Node.js.7B.js" />
         <item itemvalue="Node.js.7A.js" />
-        <item itemvalue="JavaScript Debug.6D.html" />
-        <item itemvalue="Node.js.6c.js" />
-        <item itemvalue="JavaScript Debug.6C.html" />
       </list>
     </recent_temporary>
   </component>
@@ -88,8 +91,20 @@
       <workItem from="1641768209644" duration="160000" />
       <workItem from="1641768388048" duration="106000" />
       <workItem from="1641768878268" duration="3376000" />
-      <workItem from="1641816231300" duration="3784000" />
+      <workItem from="1641816231300" duration="4487000" />
+      <workItem from="1641826563355" duration="1069000" />
+      <workItem from="1641838684265" duration="2721000" />
+      <workItem from="1641855712335" duration="11135000" />
+      <workItem from="1641895306150" duration="2875000" />
     </task>
+    <task id="LOCAL-00001" summary="Assignment 7 TIN">
+      <created>1641821378119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641821378119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Assignment 6 TIN" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 6 TIN" />
+    <MESSAGE value="Assignment 7 TIN" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 7 TIN" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
